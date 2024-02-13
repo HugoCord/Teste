@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+#container-perfil {
+    height: 47vw;
+    width: 100vw;
+    margin-bottom: 2vh;
+}
+#container-imagens-perfil {
+    height: 30vw;
+    width: 100%;
+}
+#capa-perfil{
+    height: 27vw;
+    width: 100%;
+    background-image: url("../../assets/bg-perfil.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+}
+#foto-perfil{
+    background-image: url("../../assets/foto-perfil.jpg");
+    background-size: cover;
+    height: 17vw;
+    width: 17vw;
+    border: solid whitesmoke;
+    border-radius:50% ;
+    position: absolute;
+    top: 8%;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+#conteiner-titulo{
+    margin-top: 1vh;
+    font-weight: 800;
+
+}
+#perfil-nome{
+    font-size: 5vh;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#perfil-cargo{
+    font-size: 3vh;
+    font-weight: 200;
+}
+#container-sobre-mim {
+    weight: 30vh;
+    height: 18vw;
+    text-align:justify;
+}
+#titulo-sobre-mim{
+    font-size: 2vh ;
+    height: 2vh;
+}
+#texto-sobre-mim {
+    font-weight: 500;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#titulo-skill {
+    height: 15vh;
+}
+#container-perfil-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 2vw;
+    width: 100vw;
+}
+#container-skill{
+    height: 80vh;
+    width: 90vw;
+}
+.container-detalhe{
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0,0,0.06)0px 1px 2px 0px;
+}
+.container-detalhe:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.titulo{
+    width:10%;
+    padding: 1vh;
+    font-weight: 800;
+}
+.descrição{
+    font-weight: 400;
+}
